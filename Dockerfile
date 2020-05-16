@@ -1,5 +1,5 @@
 FROM ruby:2.6.3
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update -qq && apt-get install -y build-essetial libpq-dev nodejs postgresql-client
 RUN mkdir /my_app
 WORKDIR /my_app
 COPY Gemfile /my_app/Gemfile
