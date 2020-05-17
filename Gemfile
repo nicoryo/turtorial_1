@@ -7,6 +7,7 @@ ruby '2.6.3'
 gem 'rails', '>= 6.0.3'
 # add
 gem 'bcrypt',  '3.1.12'
+gem 'bootstrap-sass', '3.3.7'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
@@ -29,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'jquery-rails', '4.3.1' #add
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -41,7 +42,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3', '1.3.13'
+  gem 'byebug',  '9.0.6', platform: :mri
 end
 
 group :development do
@@ -61,6 +63,11 @@ group :test do
   #gem 'chromedriver-helper'
   #Add
   gem 'webdrivers', '~> 4.0'
+  gem 'rails-controller-testing', '~> 1.0.2'
+  gem 'minitest',                 '~> 5.14.1'
+  gem 'minitest-reporters',       '~> 1.1.14'
+  gem 'guard',                    '~> 2.16.2'
+  gem 'guard-minitest',           '~> 2.4.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
