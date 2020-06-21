@@ -7,7 +7,7 @@ ruby '2.6.3'
 gem 'rails', '>= 6.0.3'
 # add
 gem 'bcrypt',  '3.1.12'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 gem 'faker',  '1.9.1'
 gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-will_paginate', '1.0.0'
