@@ -7,7 +7,7 @@ ruby '2.6.3'
 gem 'rails', '>= 6.0.3'
 # add
 gem 'bcrypt',  '3.1.12'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 gem 'faker',  '1.9.1'
 gem 'carrierwave', '~> 1.2.2'
 gem 'mini_magick',  '~> 4.7.0'
